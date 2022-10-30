@@ -11,7 +11,7 @@ const lines = [
   },
 ];
 
-export function useFriends(who = "Ross") {
+export function useFriendsLine(who = "Ross") {
   const line = ref(lines.find((actor) => actor.name === who));
   return line;
 }
